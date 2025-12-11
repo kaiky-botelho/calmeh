@@ -8,7 +8,7 @@ export const metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="pt-br">
+    <html lang="pt-br" className="h-full">
       <body>
         <Header
           titulo="CALMÉH"
@@ -17,7 +17,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             { nome: "Sobre", url: "/sobre" },
           ]}
         />
-        <main>
+        <main className="bg-[#FFF6EF]">
           {children}
         </main>
       </body>

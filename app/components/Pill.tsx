@@ -7,7 +7,7 @@ interface PillProps {
 
 export function Pill(props: PillProps) {
     return (
-        <div className="inline-flex items-center gap-2 rounded-full border-4 border-amber-100 px-4 py-2">
+        <div className="inline-flex items-center gap-2 rounded-full border-4 border-[#D6DC82] px-4 py-2">
             <span>
                 <img src={props.icone} alt=""/>
             </span>
