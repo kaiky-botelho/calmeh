@@ -8,13 +8,17 @@ export const metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="pt-br" className="h-full">
+    <html lang="pt-br" className="h-full scroll-smooth">
       <body>
         <Header
           titulo="CALMÉH"
           caminhos={[
-            { nome: "Home", url: "/" },
-            { nome: "Sobre", url: "/sobre" },
+            { nome: "Início", url: "#inicio" },
+            { nome: "Produtos", url: "#produtos" },
+            { nome: "Nossa História", url: "#historia" },
+            { nome: "Diferenciais", url: "#diferenciais" },
+            { nome: "Depoimentos", url: "#depoimentos" },
+            { nome: "FAQ", url: "#faq" },
           ]}
         />
         <main className="bg-[#FFF6EF]">

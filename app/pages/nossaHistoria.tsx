@@ -5,7 +5,7 @@ export default function NossaHistoria() {
     return (
         <main className="bg-[#FFF6EF] flex">
             <div className="max-w-6xl mx-auto px-6 py-20 text-xl">
-                <div className="grid grid-cols-2 gap-4">
+                <div className="grid grid-cols-1 min-[840px]:grid-cols-2 gap-6 items-center">
                     <div className="text-xl">
                         <h1 className="text-5xl font-bold mb-6 col-span-2 text-[#90993e]">Nossa História</h1>
                         <p className="mb-4">
@@ -14,7 +14,7 @@ export default function NossaHistoria() {
                         <p className="mb-4">
                             Nossa equipe de artesãos une técnicas tradicionais e inovação, escolhendo cuidadosamente cada ingrediente para garantir qualidade, bem-estar e respeito ao meio ambiente.
                         </p>
-                        <p>
+                        <p className="mb-4">
                             Mais do que produtos, oferecemos uma experiência sensorial completa: um convite para desacelerar, respirar fundo e aproveitar momentos de conexão com você mesmo e com quem você ama.
                         </p>
                     </div>
