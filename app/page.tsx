@@ -4,6 +4,7 @@ import Inicio from "./pages/inicio";
 import NossaHistoria from "./pages/nossaHistoria";
 import PerguntasFrequentes from "./pages/perguntasFrequentes";
 import Produtos from "./pages/produtos";
+import Orcamento from "./pages/orcamento";
 import { Footer } from "./pages/Footer";
 
 export default function Page() {
@@ -27,6 +28,9 @@ export default function Page() {
         </section>
         <section id="faq">
           <PerguntasFrequentes />
+        </section>
+        <section id="orcamento">
+          <Orcamento />
         </section>
       </div>
       <Footer />

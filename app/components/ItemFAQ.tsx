@@ -10,7 +10,7 @@ export function ItemFAQ({ pergunta, resposta }: ItemFAQProps) {
     const [aberto, setAberto] = useState(false);
 
     return (
-        <div className="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+        <div className="bg-white border border-gray-200 border-l-4 border-l-[#90993e] rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
             <button
                 onClick={() => setAberto(!aberto)}
                 className="w-full p-5 text-left flex items-center justify-between gap-4 hover:bg-gray-50 transition-colors"

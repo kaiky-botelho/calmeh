@@ -3,7 +3,7 @@ import { CardDiferenciais } from "../components/cardDiferenciais";
 
 export default function Diferencias() {
     return (
-        <div className="bg-[#edf2a3]">
+        <div className="bg-[#b3be4c]">
             <div className="max-w-6xl mx-auto px-6 py-4">
                 <div className="flex flex-wrap gap-5 items-stretch justify-center">
                     <CardDiferenciais
